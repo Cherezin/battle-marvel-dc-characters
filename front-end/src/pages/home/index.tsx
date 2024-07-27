@@ -3,6 +3,7 @@ import heros from "../../data/heros.json";
 import '../../index.css';
 import { BattleModal } from "./battle-modal";
 import { ListHero } from "./list-heros";
+import { InfoCaracterModal } from "./info-modal";
 
 interface Hero {
   id: number;
@@ -12,6 +13,8 @@ interface Hero {
   velocidade: number;
   defesa: number;
   img: string;
+  descricao: string;
+  titulo: string;
 }
 
 export function CreateBattleHeros() {
@@ -19,6 +22,9 @@ export function CreateBattleHeros() {
   const [herosSelect, setHerosSelect] = useState<Hero[]>([]);
   const [topHero, setTopHero] = useState<Hero | null>(null);
   const [isBattleModal, setIsBattleModal] = useState(false);
+  const [isInfoModal, setIsInfoModal] = useState(false)
+  const [isDontCaracterModal, setIsDontCaracterModal] = useState(false)
+  const [InfoCaracteres, setInfoCaracteres] = useState<Hero[]>([]);
   const [isSearch, setIsSearch] = useState('')
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -37,6 +43,8 @@ export function CreateBattleHeros() {
       ...prevHeros,
       ...herosFilter
     ]);
+
+
   }
 
   function totalPower(hero: Hero) {
@@ -44,7 +52,7 @@ export function CreateBattleHeros() {
   }
 
   function battleHeros() {
-    if (herosSelect.length === 0) return;
+    if (herosSelect.length <= 1) return setIsDontCaracterModal(true)
     const heroTotals = herosSelect.map(hero => ({
       ...hero,
       total: totalPower(hero)
@@ -65,18 +73,35 @@ export function CreateBattleHeros() {
     setTopHero(null);
   }
 
+  function closeDontCaracterModal(){
+    setIsDontCaracterModal(false)
+  }
+
   function handleSearchCharacter(e: string){
     setIsSearch(e)
+  }
+
+  function openInfoModal(id: number){
+    const infoCaracterFiltered = heros.filter(hero => hero.id === id)
+
+    setInfoCaracteres(infoCaracterFiltered)
+    setIsInfoModal(true)
+  }
+
+  function closeInforModal(){
+    setIsInfoModal(false)
   }
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
         closeBattleModal();
+        closeInforModal();
+        closeDontCaracterModal()
       }
     }
 
-    if (isBattleModal) {
+    if (isBattleModal || isInfoModal || isDontCaracterModal) {
       document.addEventListener('mousedown', handleClickOutside);
     } else {
       document.removeEventListener('mousedown', handleClickOutside);
@@ -85,7 +110,7 @@ export function CreateBattleHeros() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isBattleModal]);
+  }, [isBattleModal, isInfoModal, isDontCaracterModal]);
 
   return (
 
@@ -102,21 +127,45 @@ export function CreateBattleHeros() {
         <div className="py-6 px-5">
             
             <ListHero
-            isFilteredHeros={isFilteredHeros}
-            addHerosSelect={addHerosSelect}
+                isFilteredHeros={isFilteredHeros}
+                addHerosSelect={addHerosSelect}
+                openInfoModal={openInfoModal}
             />
 
             <div className="flex items-center justify-center">
-                <button className="bg-zinc-500 px-5 py-2 rounded-lg text-zinc-50" onClick={battleHeros}>
+                <button 
+                className="bg-zinc-500 px-5 py-2 rounded-lg text-zinc-50" 
+                onClick={battleHeros}>
                 Iniciar Luta
                 </button>
             </div>
-
+            
             {isBattleModal && topHero && (
                 <BattleModal
-                modalRef={modalRef}
-                topHero={topHero}
-                closeBattleModal={closeBattleModal}
+                    modalRef={modalRef}
+                    topHero={topHero}
+                    closeBattleModal={closeBattleModal}
+                />
+            )}
+
+            {isDontCaracterModal &&(
+                <div className='fixed inset-0 bg-black/60 flex items-center justify-center'>
+                    <div ref={modalRef} className="max-h-full overflow-auto rounded-xl py-5 px-6 shadow-shape bg-zinc-100 space-y-5">
+                        <span>Selecione mais personagens</span>
+                        <div className="flex items-center justify-center">
+                            <button onClick={closeDontCaracterModal} className="bg-red-500 px-3 py-1 rounded text-white">
+                                Fechar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {isInfoModal && ( 
+                <InfoCaracterModal
+                    modalRef={modalRef}
+                    InfoCaracteres={InfoCaracteres}
+                    closeInforModal={closeInforModal}
                 />
             )}
         </div>
