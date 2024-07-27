@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nome": "Superman",
+        "forca": 100,
+        "inteligencia": 90,
+        "velocidade": 80,
+        "defesa": 70,
+        "img": "../public/img/superman.webp",
+        "tags": ["herói", "superpoderes", "dc", "kryptoniano", "invulnerável", "superman", "super homem"]
+    },
+    {
+        "id": 2,
+        "nome": "Batman",
+        "forca": 70,
+        "inteligencia": 100,
+        "velocidade": 60,
+        "defesa": 80,
+        "img": "../public/img/batman.webp",
+        "tags": ["herói", "tecnologia", "dc", "detetive", "humano", "batman", "morcego"]
+    },
+    {
+        "id": 3,
+        "nome": "Thor",
+        "forca": 90,
+        "inteligencia": 70,
+        "velocidade": 75,
+        "defesa": 85,
+        "img": "../public/img/thor.webp",
+        "tags": ["herói", "mitologia", "marvel", "deus", "relâmpago", "thor", "trove"]
+    },
+    {
+        "id": 4,
+        "nome": "Wolverine",
+        "forca": 85,
+        "inteligencia": 60,
+        "velocidade": 70,
+        "defesa": 90,
+        "img": "../public/img/wolverine.webp",
+        "tags": ["herói", "marvel", "mutante", "fatorcura", "garras", "wolverine", "lobisomem"]
+    },
+    {
+        "id": 5,
+        "nome": "Mulher-Maravilha",
+        "forca": 85,
+        "inteligencia": 80,
+        "velocidade": 75,
+        "defesa": 90,
+        "img": "../public/img/wonder-woman.webp",
+        "tags": ["herói", "dc", "amazonas", "superpoderes", "guerreira", "wonder woman", "mulher maravilha"]
+    },
+    {
+        "id": 6,
+        "nome": "Homem-Aranha",
+        "forca": 70,
+        "inteligencia": 80,
+        "velocidade": 85,
+        "defesa": 60,
+        "img": "../public/img/spiderman.webp",
+        "tags": ["herói", "marvel", "aracnídeo", "superpoderes", "amigo da vizinhança", "spiderman", "homem aranha"]
+    },
+    {
+        "id": 7,
+        "nome": "Feiticeira Escarlate",
+        "forca": 75,
+        "inteligencia": 90,
+        "velocidade": 70,
+        "defesa": 60,
+        "img": "../public/img/scarlet-witch.webp",
+        "tags": ["herói", "marvel", "magia", "mutante", "poderes psíquicos", "scarlet witch", "feiticeira escarlate"]
+    },
+    {
+        "id": 8,
+        "nome": "Robin",
+        "forca": 60,
+        "inteligencia": 70,
+        "velocidade": 75,
+        "defesa": 65,
+        "img": "../public/img/robin.webp",
+        "tags": ["herói", "dc", "sidekick", "detetive", "juventude", "robin", "sidekick"]
+    },
+    {
+        "id": 9,
+        "nome": "Raven",
+        "forca": 70,
+        "inteligencia": 85,
+        "velocidade": 65,
+        "defesa": 70,
+        "img": "../public/img/raven.webp",
+        "tags": ["herói", "dc", "magia", "poderes psíquicos", "escuridão", "raven", "corvo"]
+    },
+    {
+        "id": 10,
+        "nome": "Fênix",
+        "forca": 90,
+        "inteligencia": 80,
+        "velocidade": 75,
+        "defesa": 85,
+        "img": "../public/img/phoenix.webp",
+        "tags": ["herói", "marvel", "mutante", "poderes cósmicos", "renascimento", "phoenix", "fênix"]
+    },
+    {
+        "id": 11,
+        "nome": "Pacificador",
+        "forca": 70,
+        "inteligencia": 60,
+        "velocidade": 65,
+        "defesa": 75,
+        "img": "../public/img/pacificador.webp",
+        "tags": ["vilão", "dc", "arma", "militar", "anti-herói", "peacemaker", "pacificador"]
+    },
+    {
+        "id": 12,
+        "nome": "Magneto",
+        "forca": 80,
+        "inteligencia": 85,
+        "velocidade": 60,
+        "defesa": 75,
+        "img": "../public/img/magneto.webp",
+        "tags": ["vilão", "marvel", "mutante", "poderes magnéticos", "magneto", "magneto"]
+    },
+    {
+        "id": 13,
+        "nome": "Lex Luthor",
+        "forca": 60,
+        "inteligencia": 100,
+        "velocidade": 50,
+        "defesa": 70,
+        "img": "../public/img/lex-luthor.webp",
+        "tags": ["vilão", "dc", "tecnologia", "genius", "lex luthor", "lex luthor"]
+    },
+    {
+        "id": 14,
+        "nome": "Coringa",
+        "forca": 50,
+        "inteligencia": 90,
+        "velocidade": 60,
+        "defesa": 40,
+        "img": "../public/img/joker.webp",
+        "tags": ["vilão", "dc", "caos", "anarquia", "joker", "coringa"]
+    },
+    {
+        "id": 15,
+        "nome": "Homem de Ferro",
+        "forca": 75,
+        "inteligencia": 100,
+        "velocidade": 70,
+        "defesa": 85,
+        "img": "../public/img/ironman.webp",
+        "tags": ["herói", "marvel", "tecnologia", "armadura", "bilionário", "iron man", "homem de ferro"]
+    },
+    {
+        "id": 16,
+        "nome": "Hulk",
+        "forca": 100,
+        "inteligencia": 70,
+        "velocidade": 60,
+        "defesa": 90,
+        "img": "../public/img/hulk.webp",
+        "tags": ["herói", "marvel", "superpoderes", "fúria", "gigante", "hulk", "incrível hulk"]
+    },
+    {
+        "id": 17,
+        "nome": "Flash",
+        "forca": 60,
+        "inteligencia": 75,
+        "velocidade": 100,
+        "defesa": 50,
+        "img": "../public/img/flash.webp",
+        "tags": ["herói", "dc", "velocidade", "superpoderes", "corrida", "flash", "velocista"]
+    },
+    {
+        "id": 18,
+        "nome": "Doutor Destino",
+        "forca": 80,
+        "inteligencia": 100,
+        "velocidade": 65,
+        "defesa": 85,
+        "img": "../public/img/doctor-doom.webp",
+        "tags": ["vilão", "marvel", "magia", "tecnologia", "doctor doom", "doutor destino"]
+    },
+    {
+        "id": 19,
+        "nome": "Deadpool",
+        "forca": 80,
+        "inteligencia": 70,
+        "velocidade": 75,
+        "defesa": 80,
+        "img": "../public/img/deadpool.webp",
+        "tags": ["anti-herói", "marvel", "humor", "regeneração", "deadpool", "deadpool"]
+    },
+    {
+        "id": 20,
+        "nome": "Ciclope",
+        "forca": 70,
+        "inteligencia": 75,
+        "velocidade": 60,
+        "defesa": 70,
+        "img": "../public/img/cyclops.webp",
+        "tags": ["herói", "marvel", "mutante", "poderes ópticos", "líder", "cyclops", "ciclope"]
+    },
+    {
+        "id": 21,
+        "nome": "Cassandra Nova",
+        "forca": 75,
+        "inteligencia": 80,
+        "velocidade": 65,
+        "defesa": 70,
+        "img": "../public/img/cassandra-nova.webp",
+        "tags": ["vilão", "marvel", "mutante", "poderes psíquicos", "cassandra nova", "cassandra nova"]
+    },
+    {
+        "id": 22,
+        "nome": "Capitã Marvel",
+        "forca": 85,
+        "inteligencia": 80,
+        "velocidade": 75,
+        "defesa": 80,
+        "img": "../public/img/captain-marvel.webp",
+        "tags": ["herói", "marvel", "superpoderes", "força", "captain marvel", "capitã marvel"]
+    },
+    {
+        "id": 23,
+        "nome": "Capitão América",
+        "forca": 80,
+        "inteligencia": 70,
+        "velocidade": 65,
+        "defesa": 75,
+        "img": "../public/img/captain-america.webp",
+        "tags": ["herói", "marvel", "superpoderes", "escudo", "captain america", "capitão américa"]
+    },
+    {
+        "id": 24,
+        "nome": "Aquaman",
+        "forca": 85,
+        "inteligencia": 75,
+        "velocidade": 70,
+        "defesa": 80,
+        "img": "../public/img/aquaman.webp",
+        "tags": ["herói", "dc", "superpoderes", "oceano", "aquaman", "homem aranha"]
+    }
+]
