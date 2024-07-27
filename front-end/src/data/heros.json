@@ -47,7 +47,7 @@
         "velocidade": 75,
         "defesa": 90,
         "img": "../public/img/wonder-woman.webp",
-        "tags": ["herói", "dc", "amazonas", "superpoderes", "guerreira", "wonder woman", "mulher maravilha"]
+        "tags": ["herói", "mulher", "dc", "amazonas", "superpoderes", "guerreira", "wonder woman", "mulher maravilha"]
     },
     {
         "id": 6,
@@ -67,7 +67,7 @@
         "velocidade": 70,
         "defesa": 60,
         "img": "../public/img/scarlet-witch.webp",
-        "tags": ["herói", "marvel", "magia", "mutante", "poderes psíquicos", "scarlet witch", "feiticeira escarlate"]
+        "tags": ["herói", "mulher", "marvel", "magia", "mutante", "poderes psíquicos", "scarlet witch", "feiticeira escarlate"]
     },
     {
         "id": 8,
@@ -87,7 +87,7 @@
         "velocidade": 65,
         "defesa": 70,
         "img": "../public/img/raven.webp",
-        "tags": ["herói", "dc", "magia", "poderes psíquicos", "escuridão", "raven", "corvo"]
+        "tags": ["herói", "mulher", "dc", "magia", "poderes psíquicos", "escuridão", "raven", "corvo"]
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "velocidade": 75,
         "defesa": 85,
         "img": "../public/img/phoenix.webp",
-        "tags": ["herói", "marvel", "mutante", "poderes cósmicos", "renascimento", "phoenix", "fênix"]
+        "tags": ["herói", "mulher", "marvel", "mutante", "poderes cósmicos", "renascimento", "phoenix", "fênix"]
     },
     {
         "id": 11,
@@ -207,7 +207,7 @@
         "velocidade": 65,
         "defesa": 70,
         "img": "../public/img/cassandra-nova.webp",
-        "tags": ["vilão", "marvel", "mutante", "poderes psíquicos", "cassandra nova", "cassandra nova"]
+        "tags": ["vilão", "mulher", "marvel", "mutante", "poderes psíquicos", "cassandra nova", "cassandra nova"]
     },
     {
         "id": 22,
@@ -217,7 +217,7 @@
         "velocidade": 75,
         "defesa": 80,
         "img": "../public/img/captain-marvel.webp",
-        "tags": ["herói", "marvel", "superpoderes", "força", "captain marvel", "capitã marvel"]
+        "tags": ["herói", "mulher", "marvel", "superpoderes", "força", "captain marvel", "capitã marvel"]
     },
     {
         "id": 23,
