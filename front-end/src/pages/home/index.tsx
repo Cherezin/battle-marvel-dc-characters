@@ -116,13 +116,23 @@ export function CreateBattleHeros() {
   return (
 
     <div>
-      <div className="bg-amber-950 py-7 flex items-center justify-center">
-        <input 
-        className="rounded-md w-1/3" 
-        placeholder="Pesquise o nome do personagem"
-        value={isSearch}
-        onChange={(e) => handleSearchCharacter(e.target.value)}
-        type="text" />
+      <div className="fixed top-0 left-0 w-full bg-amber-950 py-7 flex items-center justify-center gap-3 z-50">
+        <div className="bg-zinc-100 rounded-md px-2 w-1/6 py-2">
+          <input 
+          className="bg-transparent w-full outline-none"
+          placeholder="Pesquise o nome do personagem"
+          value={isSearch}
+          onChange={(e) => handleSearchCharacter(e.target.value)}
+          type="text" 
+          />
+        </div>
+        <div className="flex items-center justify-center">
+            <button 
+            className="bg-emerald-200 px-5 py-2 rounded-lg text-zinc-950 hover:bg-emerald-300" 
+            onClick={battleHeros}>
+              Iniciar Luta
+            </button>
+        </div>
       </div>
 
         <div className="py-6 px-5">
@@ -133,13 +143,7 @@ export function CreateBattleHeros() {
                 openInfoModal={openInfoModal}
             />
 
-            <div className="flex items-center justify-center">
-                <button 
-                className="bg-zinc-500 px-5 py-2 rounded-lg text-zinc-50" 
-                onClick={battleHeros}>
-                Iniciar Luta
-                </button>
-            </div>
+            
             
             {isBattleModal && topHero && (
                 <BattleModal

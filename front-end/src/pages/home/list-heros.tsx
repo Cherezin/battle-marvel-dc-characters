@@ -22,7 +22,7 @@ export function ListHero({
     openInfoModal
  }: ListHeroProps){
     return(
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center pt-24">
             <ul className="py-5 px-5 max-w-7xl rounded-md flex justify-center flex-wrap gap-3">
                 {isFilteredHeros.map(hero => (
                     <li className="bg-zinc-200 rounded-md px-3 py-2 hover:bg-zinc-300" key={hero.id}>
