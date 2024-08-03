@@ -21,11 +21,11 @@ interface Hero {
 export function CreateBattleHeros() {
   const [isFilteredHeros, setIsFilteredHeros] = useState<Hero[]>(heros)
   const [herosSelect, setHerosSelect] = useState<Hero[]>([]);
+  const [InfoCaracteres, setInfoCaracteres] = useState<Hero[]>([]);
   const [topHero, setTopHero] = useState<Hero | null>(null);
   const [isBattleModal, setIsBattleModal] = useState(false);
   const [isInfoModal, setIsInfoModal] = useState(false)
   const [isDontCaracterModal, setIsDontCaracterModal] = useState(false)
-  const [InfoCaracteres, setInfoCaracteres] = useState<Hero[]>([]);
   const [isSearch, setIsSearch] = useState('')
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -38,14 +38,17 @@ export function CreateBattleHeros() {
   },[isSearch])
 
   function addHerosSelect(id: number) {
-    const herosFilter = heros.filter(hero => hero.id === id);
+    setHerosSelect(prevHeros => {
+        const isAlreadySelected = prevHeros.some(hero => hero.id == id)
 
-    setHerosSelect(prevHeros => [
-      ...prevHeros,
-      ...herosFilter
-    ]);
-
-
+        if(isAlreadySelected){
+          return prevHeros.filter(hero => hero.id !== id)
+        } else{
+          const herosFilter = heros.filter(hero => hero.id === id );
+          return [...prevHeros, ...herosFilter]
+        }
+   
+    })
   }
 
   function totalPower(hero: Hero) {
@@ -141,6 +144,7 @@ export function CreateBattleHeros() {
                 isFilteredHeros={isFilteredHeros}
                 addHerosSelect={addHerosSelect}
                 openInfoModal={openInfoModal}
+                herosSelect={herosSelect}
             />
 
             
