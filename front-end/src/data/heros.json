@@ -1,291 +1,1446 @@
 [
-    {
-      "id": 1,
-      "nome": "Superman",
-      "forca": 100,
-      "inteligencia": 90,
-      "velocidade": 80,
-      "defesa": 70,
-      "img": "../public/img/superman.webp",
-      "tags": ["herói", "superpoderes", "dc", "kryptoniano", "invulnerável", "superman", "super homem"],
-      "titulo": "O Último Filho de Krypton",
-      "descricao": "Superman, também conhecido como Clark Kent, é um dos heróis mais poderosos da Terra, com superforça, voo e invulnerabilidade."
-    },
-    {
-      "id": 2,
-      "nome": "Batman",
-      "forca": 70,
-      "inteligencia": 100,
-      "velocidade": 60,
-      "defesa": 80,
-      "img": "../public/img/batman.webp",
-      "tags": ["herói", "tecnologia", "dc", "detetive", "humano", "batman", "morcego"],
-      "titulo": "O Cavaleiro das Trevas",
-      "descricao": "Batman, ou Bruce Wayne, é um vigilante de Gotham City, conhecido por sua inteligência, habilidades de combate e uso de tecnologia avançada."
-    },
-    {
-      "id": 3,
-      "nome": "Thor",
-      "forca": 90,
-      "inteligencia": 70,
-      "velocidade": 75,
-      "defesa": 85,
-      "img": "../public/img/thor.webp",
-      "tags": ["herói", "mitologia", "marvel", "deus", "relâmpago", "thor", "trove"],
-      "titulo": "O Deus do Trovão",
-      "descricao": "Thor, o Deus do Trovão, é um dos mais poderosos Vingadores, empunhando o martelo Mjolnir e controlando raios."
-    },
-    {
-      "id": 4,
-      "nome": "Wolverine",
-      "forca": 85,
-      "inteligencia": 60,
-      "velocidade": 70,
-      "defesa": 90,
-      "img": "../public/img/wolverine.webp",
-      "tags": ["herói", "marvel", "mutante", "fatorcura", "garras", "wolverine", "lobisomem"],
-      "titulo": "O Mutante Selvagem",
-      "descricao": "Wolverine, ou Logan, é um mutante com habilidades regenerativas e garras de adamantium, conhecido por sua personalidade feroz."
-    },
-    {
-      "id": 5,
-      "nome": "Mulher-Maravilha",
-      "forca": 85,
-      "inteligencia": 80,
-      "velocidade": 75,
-      "defesa": 90,
-      "img": "../public/img/wonder-woman.webp",
-      "tags": ["herói", "mulher", "dc", "amazonas", "superpoderes", "guerreira", "wonder woman", "mulher maravilha"],
-      "titulo": "A Princesa Amazona",
-      "descricao": "Mulher-Maravilha, ou Diana Prince, é uma guerreira amazona com força sobre-humana, agilidade e habilidades de combate excepcionais."
-    },
-    {
-      "id": 6,
-      "nome": "Homem-Aranha",
-      "forca": 70,
-      "inteligencia": 80,
-      "velocidade": 85,
-      "defesa": 60,
-      "img": "../public/img/spiderman.webp",
-      "tags": ["herói", "marvel", "aracnídeo", "superpoderes", "amigo da vizinhança", "spiderman", "homem aranha"],
-      "titulo": "O Amigão da Vizinhança",
-      "descricao": "Homem-Aranha, ou Peter Parker, é um jovem herói com habilidades aracnídeas, conhecido por seu senso de responsabilidade e espírito jovial."
-    },
-    {
-      "id": 7,
-      "nome": "Feiticeira Escarlate",
-      "forca": 75,
-      "inteligencia": 90,
-      "velocidade": 70,
-      "defesa": 60,
-      "img": "../public/img/scarlet-witch.webp",
-      "tags": ["herói", "mulher", "marvel", "magia", "mutante", "poderes psíquicos", "scarlet witch", "feiticeira escarlate"],
-      "titulo": "A Bruxa do Caos",
-      "descricao": "Feiticeira Escarlate, ou Wanda Maximoff, é uma poderosa usuária de magia com habilidades de manipulação da realidade."
-    },
-    {
-      "id": 8,
-      "nome": "Robin",
-      "forca": 60,
-      "inteligencia": 70,
-      "velocidade": 75,
-      "defesa": 65,
-      "img": "../public/img/robin.webp",
-      "tags": ["herói", "dc", "sidekick", "detetive", "juventude", "robin", "sidekick"],
-      "titulo": "O Menino Prodígio",
-      "descricao": "Robin é o parceiro de Batman, conhecido por suas habilidades de acrobacia, combate e investigação."
-    },
-    {
-      "id": 9,
-      "nome": "Raven",
-      "forca": 70,
-      "inteligencia": 85,
-      "velocidade": 65,
-      "defesa": 70,
-      "img": "../public/img/raven.webp",
-      "tags": ["herói", "mulher", "dc", "magia", "poderes psíquicos", "escuridão", "raven", "corvo"],
-      "titulo": "A Filha das Trevas",
-      "descricao": "Raven é uma poderosa usuária de magia e empata, filha de um demônio, e luta para controlar suas habilidades e emoções."
-    },
-    {
-      "id": 10,
-      "nome": "Fênix",
-      "forca": 90,
-      "inteligencia": 80,
-      "velocidade": 75,
-      "defesa": 85,
-      "img": "../public/img/phoenix.webp",
-      "tags": ["herói", "mulher", "marvel", "mutante", "poderes cósmicos", "renascimento", "phoenix", "fênix"],
-      "titulo": "A Entidade Cósmica",
-      "descricao": "Fênix, ou Jean Grey, é uma mutante com poderes telepáticos e telecinéticos, que quando imbuída pela Força Fênix, se torna uma das entidades mais poderosas do universo."
-    },
-    {
-      "id": 11,
-      "nome": "Pacificador",
-      "forca": 70,
-      "inteligencia": 60,
-      "velocidade": 65,
-      "defesa": 75,
-      "img": "../public/img/pacificador.webp",
-      "tags": ["vilão", "dc", "arma", "militar", "anti-herói", "peacemaker", "pacificador"],
-      "titulo": "O Soldado da Paz",
-      "descricao": "Pacificador, ou Christopher Smith, é um vigilante militar que acredita na paz a qualquer custo, mesmo que isso signifique usar força letal."
-    },
-    {
-      "id": 12,
-      "nome": "Magneto",
-      "forca": 80,
-      "inteligencia": 85,
-      "velocidade": 60,
-      "defesa": 75,
-      "img": "../public/img/magneto.webp",
-      "tags": ["vilão", "marvel", "mutante", "poderes magnéticos", "magneto", "magneto"],
-      "titulo": "O Mestre do Magnetismo",
-      "descricao": "Magneto, ou Erik Lehnsherr, é um mutante com a habilidade de controlar campos magnéticos, frequentemente antagonista dos X-Men."
-    },
-    {
-      "id": 13,
-      "nome": "Lex Luthor",
-      "forca": 60,
-      "inteligencia": 100,
-      "velocidade": 50,
-      "defesa": 70,
-      "img": "../public/img/lex-luthor.webp",
-      "tags": ["vilão", "dc", "tecnologia", "genius", "lex luthor", "lex luthor"],
-      "titulo": "O Gênio do Mal",
-      "descricao": "Lex Luthor é um magnata e cientista com uma mente brilhante, frequentemente inimigo de Superman, utilizando sua inteligência e recursos para tentar dominar o mundo."
-    },
-    {
-      "id": 14,
-      "nome": "Coringa",
-      "forca": 50,
-      "inteligencia": 90,
-      "velocidade": 60,
-      "defesa": 40,
-      "img": "../public/img/joker.webp",
-      "tags": ["vilão", "dc", "caos", "anarquia", "joker", "coringa"],
-      "titulo": "O Palhaço do Crime",
-      "descricao": "Coringa é o arqui-inimigo de Batman, conhecido por sua mente criminosa insana, propensão para o caos e comportamento anárquico."
-    },
-    {
-      "id": 15,
-      "nome": "Homem de Ferro",
-      "forca": 75,
-      "inteligencia": 100,
-      "velocidade": 70,
-      "defesa": 85,
-      "img": "../public/img/ironman.webp",
-      "tags": ["herói", "marvel", "tecnologia", "armadura", "bilionário", "iron man", "homem de ferro"],
-      "titulo": "O Gênio, Bilionário, Playboy, Filantropo",
-      "descricao": "Homem de Ferro, ou Tony Stark, é um inventor e bilionário que usa uma armadura tecnologicamente avançada para combater o crime e proteger o mundo."
-    },
-    {
-      "id": 16,
-      "nome": "Hulk",
-      "forca": 100,
-      "inteligencia": 70,
-      "velocidade": 60,
-      "defesa": 90,
-      "img": "../public/img/hulk.webp",
-      "tags": ["herói", "marvel", "superpoderes", "fúria", "gigante", "hulk", "incrível hulk"],
-      "titulo": "O Gigante Esmeralda",
-      "descricao": "Hulk, ou Bruce Banner, é um cientista que, após uma exposição à radiação gama, se transforma em um poderoso gigante verde com força sobre-humana quando fica enfurecido."
-    },
-    {
-      "id": 17,
-      "nome": "Flash",
-      "forca": 60,
-      "inteligencia": 75,
-      "velocidade": 100,
-      "defesa": 50,
-      "img": "../public/img/flash.webp",
-      "tags": ["herói", "dc", "velocidade", "superpoderes", "corrida", "flash", "velocista"],
-      "titulo": "O Homem Mais Rápido do Mundo",
-      "descricao": "Flash, ou Barry Allen, é um super-herói com a habilidade de correr em velocidades extremas, tornando-se uma força a ser reconhecida em combate e salvamento."
-    },
-    {
-      "id": 18,
-      "nome": "Doutor Destino",
-      "forca": 80,
-      "inteligencia": 100,
-      "velocidade": 65,
-      "defesa": 85,
-      "img": "../public/img/doctor-doom.webp",
-      "tags": ["vilão", "marvel", "magia", "tecnologia", "doctor doom", "doutor destino"],
-      "titulo": "O Monarca de Latveria",
-      "descricao": "Doutor Destino, ou Victor Von Doom, é um dos maiores vilões da Marvel, um gênio científico com conhecimentos avançados em magia e tecnologia."
-    },
-    {
-      "id": 19,
-      "nome": "Deadpool",
-      "forca": 80,
-      "inteligencia": 70,
-      "velocidade": 75,
-      "defesa": 80,
-      "img": "../public/img/deadpool.webp",
-      "tags": ["anti-herói", "marvel", "humor", "regeneração", "deadpool", "deadpool"],
-      "titulo": "O Mercenário Tagarela",
-      "descricao": "Deadpool, ou Wade Wilson, é um anti-herói conhecido por seu humor irreverente, habilidades de combate e fator de cura regenerativo."
-    },
-    {
-      "id": 20,
-      "nome": "Ciclope",
-      "forca": 70,
-      "inteligencia": 75,
-      "velocidade": 60,
-      "defesa": 70,
-      "img": "../public/img/cyclops.webp",
-      "tags": ["herói", "marvel", "mutante", "poderes ópticos", "líder", "cyclops", "ciclope"],
-      "titulo": "O Líder dos X-Men",
-      "descricao": "Ciclope, ou Scott Summers, é um mutante com a habilidade de emitir rajadas de energia óptica, frequentemente líder dos X-Men."
-    },
-    {
-      "id": 21,
-      "nome": "Cassandra Nova",
-      "forca": 75,
-      "inteligencia": 80,
-      "velocidade": 65,
-      "defesa": 70,
-      "img": "../public/img/cassandra-nova.webp",
-      "tags": ["vilão", "mulher", "marvel", "mutante", "poderes psíquicos", "cassandra nova", "cassandra nova"],
-      "titulo": "A Mutante Malévola",
-      "descricao": "Cassandra Nova é uma poderosa telepata e telecinética, com um histórico de antagonismo para com os X-Men e os mutantes em geral."
-    },
-    {
-      "id": 22,
-      "nome": "Capitã Marvel",
-      "forca": 85,
-      "inteligencia": 80,
-      "velocidade": 75,
-      "defesa": 80,
-      "img": "../public/img/captain-marvel.webp",
-      "tags": ["herói", "mulher", "marvel", "superpoderes", "força", "captain marvel", "capitã marvel"],
-      "titulo": "A Heroína Cósmica",
-      "descricao": "Capitã Marvel, ou Carol Danvers, é uma das heroínas mais poderosas do universo Marvel, com habilidades de voo, superforça e manipulação de energia."
-    },
-    {
-      "id": 23,
-      "nome": "Capitão América",
-      "forca": 80,
-      "inteligencia": 70,
-      "velocidade": 65,
-      "defesa": 75,
-      "img": "../public/img/captain-america.webp",
-      "tags": ["herói", "marvel", "superpoderes", "escudo", "captain america", "capitão américa"],
-      "titulo": "O Símbolo da Liberdade",
-      "descricao": "Capitão América, ou Steve Rogers, é o super-soldado patriótico da Marvel, conhecido por seu escudo indestrutível e forte senso de justiça."
-    },
-    {
-      "id": 24,
-      "nome": "Aquaman",
-      "forca": 85,
-      "inteligencia": 75,
-      "velocidade": 70,
-      "defesa": 80,
-      "img": "../public/img/aquaman.webp",
-      "tags": ["herói", "dc", "superpoderes", "oceano", "aquaman", "rei dos sete mares"],
-      "titulo": "O Rei dos Sete Mares",
-      "descricao": "Aquaman, ou Arthur Curry, é o rei de Atlântida, com habilidades de comunicação com a vida marinha, superforça e controle sobre as águas."
-    }
-  ]
+  {
+    "id": 1,
+    "nome": "Superman",
+    "forca": 100,
+    "inteligencia": 90,
+    "velocidade": 85,
+    "defesa": 85,
+    "img": "../public/img/superman.webp",
+    "tags": [
+      "herói", "heroi", "superpoderes", "dc", "kryptoniano", "invulnerável",
+      "superman", "super homem", "homem", "hero", "superpowers", "kryptonian",
+      "liga da justiça", "invulnerable"
+    ],
+    "titulo": "O Último Filho de Krypton",
+    "descricao": "Superman, também conhecido como Clark Kent, é um dos heróis mais poderosos da Terra, com superforca, voo e invulnerabilidade."
+  },
+  {
+    "id": 2,
+    "nome": "Batman",
+    "forca": 80,
+    "inteligencia": 100,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/batman.webp",
+    "tags": [
+      "herói", "heroi", "tecnologia", "dc", "detetive", "humano", "batman", "morcego",
+      "liga da justiça",
+      "hero", "technology", "detective", "human", "bat", "man"
+    ],
+    "titulo": "O Cavaleiro das Trevas",
+    "descricao": "Batman, ou Bruce Wayne, é um vigilante de Gotham City, conhecido por sua inteligencia, habilidades de combate e uso de tecnologia avançada."
+  },
+  {
+    "id": 3,
+    "nome": "Thor",
+    "forca": 95,
+    "inteligencia": 70,
+    "velocidade": 80,
+    "defesa": 90,
+    "img": "../public/img/thor.webp",
+    "tags": [
+      "herói", "heroi", "mitologia", "marvel", "deus", "relâmpago",
+      "thor", "trovão", "hero", "mythology", "marvel", "god",
+      "lightning", "thunder"
+    ],
+    "titulo": "O Deus do Trovão",
+    "descricao": "Thor, o Deus do Trovão, é um dos mais poderosos Vingadores, empunhando o martelo Mjolnir e controlando raios."
+  },
+  {
+    "id": 4,
+    "nome": "Wolverine",
+    "forca": 85,
+    "inteligencia": 60,
+    "velocidade": 70,
+    "defesa": 90,
+    "img": "../public/img/wolverine.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "mutante", "fatorcura", "garras",
+      "lobisomem", "hero", "mutant", "healing factor", "claws", "wolverine", "werewolf", "x-men"
+    ],
+    "titulo": "O Mutante Selvagem",
+    "descricao": "Wolverine, ou Logan, é um mutante com habilidades regenerativas e garras de adamantium, conhecido por sua personalidade feroz."
+  },
+  {
+    "id": 5,
+    "nome": "Mulher-Maravilha",
+    "forca": 85,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 90,
+    "img": "../public/img/wonder-woman.webp",
+    "tags": [
+      "herói", "heroi", "mulher", "dc", "amazonas", "superpoderes", "guerreira",
+      "wonder woman", "hero", "woman", "amazons", "superpowers","warrior", "liga da justiça"
+    ],
+    "titulo": "A Princesa Amazona",
+    "descricao": "Mulher-Maravilha, ou Diana Prince, é uma guerreira amazona com forca sobre-humana, agilidade e habilidades de combate excepcionais."
+  },
+  {
+    "id": 6,
+    "nome": "Homem-Aranha",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 60,
+    "img": "../public/img/spiderman.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "aracnídeo", "superpoderes",
+      "amigo da vizinhança", "spiderman", "homem aranha", "homem",
+      "hero", "arachnid", "superpowers", "friendly neighborhood"
+    ],
+    "titulo": "O Amigão da Vizinhança",
+    "descricao": "Homem-Aranha, ou Peter Parker, é um jovem herói com habilidades aracnídeas, conhecido por seu senso de responsabilidade e espírito jovial."
+  },
+  {
+    "id": 7,
+    "nome": "Feiticeira Escarlate",
+    "forca": 75,
+    "inteligencia": 90,
+    "velocidade": 70,
+    "defesa": 60,
+    "img": "../public/img/scarlet-witch.webp",
+    "tags": [
+      "herói", "heroi", "mulher", "marvel", "magia", "mutante", "poderes psíquicos",
+      "scarlet witch", "feiticeira escarlate", "feiticeira", "hero",
+      "woman", "magic", "mutant", "psychic powers", "witch"
+    ],
+    "titulo": "A Bruxa do Caos",
+    "descricao": "Feiticeira Escarlate, ou Wanda Maximoff, é uma poderosa usuária de magia com habilidades de manipulação da realidade."
+  },
+  {
+    "id": 8,
+    "nome": "Robin",
+    "forca": 60,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 65,
+    "img": "../public/img/robin.webp",
+    "tags": [
+      "herói", "heroi", "dc", "sidekick", "detetive", "juventude", "jovens titãs", "robin",
+      "hero", "sidekick", "detective", "youth"
+    ],
+    "titulo": "O Menino Prodígio",
+    "descricao": "Robin é o parceiro de Batman, conhecido por suas habilidades de acrobacia, combate e investigação."
+  },
+  {
+    "id": 9,
+    "nome": "Raven",
+    "forca": 70,
+    "inteligencia": 85,
+    "velocidade": 65,
+    "defesa": 70,
+    "img": "../public/img/raven.webp",
+    "tags": [
+      "herói", "heroi", "mulher", "dc", "magia", "poderes psíquicos", "escuridão",
+      "raven", "hero", "woman", "magic", "psychic powers", "jovens titãs", "darkness"
+    ],
+    "titulo": "A Filha das Trevas",
+    "descricao": "Raven é uma poderosa usuária de magia e empata, filha de um demônio, e luta para controlar suas habilidades e emoções."
+  },
+  {
+    "id": 10,
+    "nome": "Fênix",
+    "forca": 90,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 85,
+    "img": "../public/img/phoenix.webp",
+    "tags": [
+      "herói", "heroi", "mulher", "marvel", "mutante", "poderes cosmicos", "renascimento",
+      "phoenix", "fênix", "hero", "woman", "marvel", "mutant", "cosmic powers", "rebirth"
+    ],
+    "titulo": "A Entidade Cósmica",
+    "descricao": "Fênix, ou Jean Grey, é uma mutante com poderes telepáticos e telecinéticos, que quando imbuída pela Forca Fênix, se torna uma das entidades mais poderosas do universo."
+  },
+  {
+    "id": 11,
+    "nome": "Pacificador",
+    "forca": 70,
+    "inteligencia": 60,
+    "velocidade": 65,
+    "defesa": 75,
+    "img": "../public/img/pacificador.webp",
+    "tags": [
+      "herói", "heroi", "dc", "antihéroi", "militar", "pacificador",
+      "peacekeeper", "hero", "military", "antihero", "peacemaker"
+    ],
+    "titulo": "O Justiçeiro Pacífico",
+    "descricao": "Pacificador é um vigilante com uma abordagem brutal contra o crime, focado em trazer paz, não importa o custo."
+  },
+  {
+    "id": 12,
+    "nome": "Magneto",
+    "forca": 85,
+    "inteligencia": 80,
+    "velocidade": 70,
+    "defesa": 75,
+    "img": "../public/img/magneto.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "mutante", "poderes magnéticos", "vilão",
+      "magneto", "hero", "mutant", "magnetic powers", "villain"
+    ],
+    "titulo": "O Mestre dos Metais",
+    "descricao": "Magneto é um mutante com o poder de controlar campos magnéticos e metais, e frequentemente atua como antagonista dos X-Men."
+  },
+  {
+    "id": 13,
+    "nome": "Lex Luthor",
+    "forca": 70,
+    "inteligencia": 100,
+    "velocidade": 60,
+    "defesa": 65,
+    "img": "../public/img/lex-luthor.webp",
+    "tags": [
+      "vilão", "dc", "supervilão", "inteligencia", "lex luthor",
+      "villain", "dc", "supervillain", "intelligence"
+    ],
+    "titulo": "O Gênio do Crime",
+    "descricao": "Lex Luthor é um dos maiores inimigos do Superman, um gênio do crime e bilionário com uma grande capacidade intelectual e recursos tecnológicos."
+  },
+  {
+    "id": 14,
+    "nome": "Coringa",
+    "forca": 60,
+    "inteligencia": 80,
+    "velocidade": 70,
+    "defesa": 60,
+    "img": "../public/img/joker.webp",
+    "tags": [
+      "vilão", "dc", "supervilão", "coringa", "loucura", "joker",
+      "villain", "dc", "supervillain", "madness"
+    ],
+    "titulo": "O Palhaço do Crime",
+    "descricao": "Coringa é um dos mais icônicos vilões de Gotham City, conhecido por sua personalidade caótica e tendências psicopáticas."
+  },
+  {
+    "id": 15,
+    "nome": "Homem de Ferro",
+    "forca": 75,
+    "inteligencia": 100,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/ironman.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "tecnologia", "armadura", "iron man",
+      "hero", "marvel", "technology", "armor", "homem de ferro"
+    ],
+    "titulo": "O Bilionário de Armadura",
+    "descricao": "Homem de Ferro, ou Tony Stark, é um bilionário e inventor que usa uma armadura avançada para combater o crime e proteger o mundo."
+  },
+  {
+    "id": 16,
+    "nome": "Hulk",
+    "forca": 100,
+    "inteligencia": 70,
+    "velocidade": 60,
+    "defesa": 90,
+    "img": "../public/img/hulk.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "forca", "gigante", "hulk",
+      "hero", "marvel", "strength", "giant"
+    ],
+    "titulo": "O Golias Esmeralda",
+    "descricao": "Hulk, ou Bruce Banner, é um cientista que se transforma em um gigante verde com forca colossal quando fica enfurecido."
+  },
+  {
+    "id": 17,
+    "nome": "Flash",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 100,
+    "defesa": 70,
+    "img": "../public/img/flash.webp",
+    "tags": [
+      "herói", "heroi", "dc", "velocidade", "superpoderes", "flash",
+      "hero", "dc", "speed", "superpowers"
+    ],
+    "titulo": "O Homem Mais Rápido do Mundo",
+    "descricao": "Flash, ou Barry Allen, possui a capacidade de correr a velocidades superlativas, viajando no tempo e atravessando dimensões."
+  },
+  {
+    "id": 18,
+    "nome": "Doutor Destino",
+    "forca": 75,
+    "inteligencia": 100,
+    "velocidade": 65,
+    "defesa": 80,
+    "img": "../public/img/doctor-doom.webp",
+    "tags": [
+      "vilão", "marvel", "supervilão", "magia", "inteligencia", "doutor destino",
+      "villain", "marvel", "supervillain", "magic", "intelligence", "doctor doom"
+    ],
+    "titulo": "O Senhor do Latveria",
+    "descricao": "Doutor Destino, ou Victor Von Doom, é um dos vilões mais inteligentes e poderosos do universo Marvel, com habilidades em magia e tecnologia."
+  },
+  {
+    "id": 19,
+    "nome": "Deadpool",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/deadpool.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "anti-herói", "humor", "deadpool",
+      "hero", "marvel", "antihero", "humor"
+    ],
+    "titulo": "O Mercenário Tagarela",
+    "descricao": "Deadpool, ou Wade Wilson, é um mercenário com habilidades regenerativas e um senso de humor irreverente, conhecido por quebrar a quarta parede."
+  },
+  {
+    "id": 20,
+    "nome": "Ciclope",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 65,
+    "defesa": 70,
+    "img": "../public/img/cyclops.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "mutante", "poderes ópticos", "ciclope",
+      "hero", "marvel", "mutant", "optic powers", "cyclop", "x-men"
+    ],
+    "titulo": "O Líder dos X-Men",
+    "descricao": "Ciclope, ou Scott Summers, é um mutante com a capacidade de disparar feixes de energia ótica de seus olhos, e atua como líder dos X-Men."
+  },
+  {
+    "id": 21,
+    "nome": "Cassandra Nova",
+    "forca": 80,
+    "inteligencia": 100,
+    "velocidade": 65,
+    "defesa": 70,
+    "img": "../public/img/cassandra-nova.webp",
+    "tags": [
+        "vilão", "vilao", "marvel", "mutante", "poderes psíquicos", "poderes psiquicos", 
+        "cassandra nova", "mulher", "woman", "telepata", "telekinetica"
+    ],
+    "titulo": "A Mutante Malévola",
+    "descricao": "Cassandra Nova é uma poderosa telepata e telecinética, com um histórico de antagonismo para com os X-Men e os mutantes em geral."
+  },
+  {
+    "id": 22,
+    "nome": "Capitã Marvel",
+    "forca": 85,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/captain-marvel.webp",
+    "tags": [
+        "herói", "heroi", "marvel", "superpoderes", "superpoderes", "forca", "forca", "captain marvel", 
+        "capitã marvel", "mulher", "woman", "cosmic", "heroina", "energia", "capita marvel"
+    ],
+    "titulo": "A Heroína Cósmica",
+    "descricao": "Capitã Marvel, ou Carol Danvers, é uma das heroínas mais poderosas do universo Marvel, com habilidades de voo, superforca e manipulação de energia."
+  },
+  {
+    "id": 23,
+    "nome": "Capitão América",
+    "forca": 80,
+    "inteligencia": 70,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/captain-america.webp",
+    "tags": [
+        "herói", "heroi", "marvel", "superpoderes", "superpoderes", "escudo", "captain america", "capitão américa", 
+        "homem", "man", "soldado", "patriota", "justiceiro", "capitao américa"
+    ],
+    "titulo": "O Símbolo da Liberdade",
+    "descricao": "Capitão América, ou Steve Rogers, é o super-soldado patriótico da Marvel, conhecido por seu escudo indestrutível e forte senso de justiça."
+  },
+  {
+    "id": 24,
+    "nome": "Aquaman",
+    "forca": 85,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/aquaman.webp",
+    "tags": [
+        "herói", "heroi", "dc", "superpoderes", "superpoderes", "oceano", "oceano", "aquaman", "rei dos sete mares",
+        "homem", "man", "atlante", "marinho", "king of the seas"
+    ],
+    "titulo": "O Rei dos Sete Mares",
+    "descricao": "Aquaman, ou Arthur Curry, é o rei de Atlântida, com habilidades de comunicação com a vida marinha, superforca e controle sobre as águas."
+  },
+  {
+    "id": 25,
+    "nome": "Batman Que Ri",
+    "forca": 85,
+    "inteligencia": 95,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/the-batman-who-laughs.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "joker", "batman", "multiverso", "dark knight", "batman que ri", "batman who laughs",
+        "homem", "man", "corrupção", "insanidade", "vilão alternativo", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "O Batman Que Ri",
+    "descricao": "Batman Que Ri é uma versão corrompida de Batman, combinando a mente de Batman com a insanidade do Coringa, resultando em um vilão imprevisível e perigoso. (Terra-22)"
+  },
+  {
+    "id": 26,
+    "nome": "Devastator",
+    "forca": 90,
+    "inteligencia": 80,
+    "velocidade": 60,
+    "defesa": 90,
+    "img": "../public/img/batman-devastator.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "superpoderes", "armadura", "multiverso", "devastator", "batman", "doomsday",
+        "homem", "man", "poderoso", "destrutivo", "batalha", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "O Devastador",
+    "descricao": "Devastator é uma versão do Batman que se fundiu com o DNA de Doomsday, resultando em um ser extremamente poderoso e destrutivo. (Terra-1)"
+  },
+  {
+    "id": 27,
+    "nome": "Murder Machine",
+    "forca": 80,
+    "inteligencia": 85,
+    "velocidade": 65,
+    "defesa": 85,
+    "img": "../public/img/batman-murder-machine.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "cyborg", "multiverso", "armadura", "murder machine", "batman",
+        "homem", "man", "cibernético", "tecnologia", "brutalidade", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "A Máquina de Matar",
+    "descricao": "Murder Machine é uma versão cibernética e implacável do Batman, projetada para eliminar qualquer ameaça com uma combinação de tecnologia e brutalidade. (Terra-44)"
+  },
+  {
+    "id": 28,
+    "nome": "The Drowned",
+    "forca": 75,
+    "inteligencia": 70,
+    "velocidade": 60,
+    "defesa": 75,
+    "img": "../public/img/batman-the-drowned.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "multiverso", "mermã", "merma", "batman", "the drowned",
+        "mulher", "woman", "marinha", "governante dos mares", "traje aquático", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "A Afogada",
+    "descricao": "The Drowned é uma versão do Batman que se tornou a governante dos mares, com habilidades aquáticas e um traje que reflete sua natureza marinha. (Terra-11)"
+  },
+  {
+    "id": 29,
+    "nome": "Dawnbreaker",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/batman-dawnbreaker.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "lanterna verde", "multiverso", "dark knight", "dawnbreaker", "batman",
+        "homem", "man", "poderes do anel", "forca de vontade", "lanterna", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "O Quebra-dos-Dias",
+    "descricao": "Dawnbreaker é uma versão do Batman que recebeu um anel do Lanterna Verde, transformando-o em um ser com poderes baseados na forca da vontade. (Terra-32)"
+  },
+  {
+    "id": 30,
+    "nome": "Red Death",
+    "forca": 85,
+    "inteligencia": 80,
+    "velocidade": 90,
+    "defesa": 75,
+    "img": "../public/img/batman-red-death.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "flash", "multiverso", "dark knight", "red death", "batman",
+        "homem", "man", "velocidade", "ameaça mortal", "supervelocidade", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "A Morte Vermelha",
+    "descricao": "Red Death é uma versão do Batman que obteve os poderes do Flash, utilizando sua velocidade para se tornar uma ameaça mortal. (Terra-52)"
+  },
+  {
+    "id": 31,
+    "nome": "The Merciless",
+    "forca": 90,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 85,
+    "img": "../public/img/batman-the-merciless.webp",
+    "tags": [
+        "vilão", "vilao", "dc", "armadura", "multiverso", "the merciless", "batman",
+        "homem", "man", "guerra", "poder absoluto", "tiranico", "Cavaleiros das Trevas", "Dark Knights", "Dark Multiverse"
+    ],
+    "titulo": "O Implacável",
+    "descricao": "The Merciless é uma versão do Batman que se tornou um deus da guerra, buscando dominar e impor seu poder absoluto. (Terra-12)"
+  },
+  {
+    "id": 32,
+    "nome": "Darkseid",
+    "forca": 100,
+    "inteligencia": 100,
+    "velocidade": 85,
+    "defesa": 95,
+    "img": "../public/img/darkseid.webp",
+    "tags": [
+      "vilão", "vilao", "dc", "deus", "nova deuses", "darkseid", "villain", "god", "new gods", "homem", "man"
+    ],
+    "titulo": "O Senhor de Apokolips",
+    "descricao": "Darkseid é um dos mais poderosos vilões do universo DC, governante do planeta Apokolips e em busca da Anti-Vida."
+  },
+  {
+    "id": 33,
+    "nome": "Manta Negra",
+    "forca": 80,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 85,
+    "img": "../public/img/manta-negra.webp",
+    "tags": [
+      "vilão", "vilao", "dc", "oceanos", "manta negra", "villain", "oceans", "aquaman", "homem", "man"
+    ],
+    "titulo": "O Caçador dos Mares",
+    "descricao": "Manta Negra é um inimigo jurado do Aquaman, com tecnologia avançada e habilidades de combate no oceano."
+  },
+  {
+    "id": 34,
+    "nome": "Arqueiro Verde",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/green-arrow.webp",
+    "tags": [
+      "herói", "heroi", "dc", "arqueiro", "olho", "hero", "archer", "eye", "liga da justiça", "homem", "man", "green arrow", "arqueiro verde"
+    ],
+    "titulo": "O Vigilante de Star City",
+    "descricao": "Arqueiro Verde, ou Oliver Queen, é um vigilante que usa sua habilidade com o arco e flecha para combater o crime em Star City."
+  },
+  {
+    "id": 35,
+    "nome": "Caçador de Marte",
+    "forca": 85,
+    "inteligencia": 90,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/martian-manhunter.webp",
+    "tags": [
+      "herói", "heroi", "dc", "marciano", "superpoderes", "hero", "martian", "superpowers", "liga da justiça", "homem", "man", "martian manhunter", "caçador de marte"
+    ],
+    "titulo": "O Último Marciano",
+    "descricao": "Caçador de Marte, ou J'onn J'onzz, é um dos últimos sobreviventes de Marte com poderes de metamorfose e telepatia."
+  },
+  {
+    "id": 36,
+    "nome": "Força Maior",
+    "forca": 90,
+    "inteligencia": 70,
+    "velocidade": 70,
+    "defesa": 85,
+    "img": "../public/img/major-force.webp",
+    "tags": [
+      "vilão", "vilao", "dc", "militar", "forca", "villain", "military", "force", "homem", "man", "major force", "força maior"
+    ],
+    "titulo": "O Soldado Imparável",
+    "descricao": "Major Force é um vilão com força sobre-humana e habilidades militares, frequentemente enfrentando heróis da DC."
+  },
+  {
+    "id": 37,
+    "nome": "Alice Negra",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/dark-alice.webp",
+    "tags": [
+      "vilã", "vilao", "dc", "criminoso", "inteligente", "villain", "criminal", "intelligent", "esquadrão suicida", "esquadrao suicida", "mulher", "woman", "dark alice", "alice negra"
+    ],
+    "titulo": "A Mente Perigosa",
+    "descricao": "Alice Negra é uma criminosa inteligente e astuta que frequentemente enfrenta heróis e equipes da DC."
+  },
+  {
+    "id": 38,
+    "nome": "A Questão",
+    "forca": 60,
+    "inteligencia": 90,
+    "velocidade": 70,
+    "defesa": 65,
+    "img": "../public/img/the-question.webp",
+    "tags": [
+      "herói", "heroi", "dc", "detetive", "misterioso", "hero", "detective", "mysterious", "homem", "man", "the question", "a questão"
+    ],
+    "titulo": "O Detetive Enigmático",
+    "descricao": "The Question é um detetive enigmático conhecido por sua busca por justiça e seu estilo de vida misterioso."
+  },
+  {
+    "id": 39,
+    "nome": "Olho Morto",
+    "forca": 75,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/olho-morto.webp",
+    "tags": [
+      "vilão", "vilao", "dc", "mercenário", "precisão", "villain", "mercenary", "precision", "esquadrão suicida", "esquadrao suicida", "homem", "man", "deadshot", "olho morto"
+    ],
+    "titulo": "O Atirador de Elite",
+    "descricao": "Olho Morto, ou Floyd Lawton, é um mercenário conhecido por sua precisão com armas de fogo e sua natureza letal."
+  },
+  {
+    "id": 40,
+    "nome": "Harley Quinn",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 65,
+    "img": "../public/img/harley-quinn.webp",
+    "tags": [
+      "vilã", "vila", "dc", "louca", "criminoso", "villain", "crazy", "criminal", "esquadrão suicida", "esquadrao suicida", "mulher", "woman", "harley quinn", "harley quinn"
+    ],
+    "titulo": "A Princesa do Crime",
+    "descricao": "Harley Quinn é uma vilã carismática e imprevisível, conhecida por sua relação com o Coringa e sua habilidade com armas."
+  },
+  {
+    "id": 41,
+    "nome": "Bunker",
+    "forca": 75,
+    "inteligencia": 65,
+    "velocidade": 70,
+    "defesa": 80,
+    "img": "../public/img/bunker.webp",
+    "tags": [
+      "herói", "heroi", "dc", "jovens titãs", "poderes", "hero", "teen titans", "powers", "titãs", "titas", "homem", "man", "bunker", "bunker"
+    ],
+    "titulo": "O Defensor Inabalável",
+    "descricao": "Bunker é um membro dos Jovens Titãs com habilidades de criação de escudos e defesas telecinéticas."
+  },
+  {
+    "id": 42,
+    "nome": "Starfire",
+    "forca": 80,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/starfire.webp",
+    "tags": [
+      "herói", "heroi", "dc", "jovens titãs", "alienígena", "poderes cósmicos", "hero", "teen titans", "alien", "cosmic powers", "titãs", "titas", "mulher", "woman", "starfire", "starfire"
+    ],
+    "titulo": "A Princesa Tamaraniana",
+    "descricao": "Starfire é uma princesa alienígena dos Tamaranianos com habilidades de voo e disparo de energia estelar."
+  },
+  {
+    "id": 43,
+    "nome": "Mutano",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 65,
+    "img": "../public/img/mutano.webp",
+    "tags": [
+      "herói", "heroi", "dc", "jovens titãs", "mutante", "transformação", "hero", "teen titans", "mutant", "transformation", "titãs", "titas", "homem", "man", "beast boy", "mutano"
+    ],
+    "titulo": "O Mutante de Forma Livre",
+    "descricao": "Mutano, ou Gar Logan, é um mutante que pode se transformar em qualquer animal, membro dos Jovens Titãs."
+  },
+  {
+    "id": 44,
+    "nome": "Cyborg",
+    "forca": 85,
+    "inteligencia": 85,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/cyborg.webp",
+    "tags": [
+      "herói", "heroi", "dc", "jovens titãs", "tecnologia", "ciborgue", "hero", "teen titans", "technology", "cyborg", "titãs", "titas", "homem", "man", "cyborg", "cyborg"
+    ],
+    "titulo": "O Guardião Tecnológico",
+    "descricao": "Cyborg, ou Victor Stone, é um herói ciborgue com habilidades tecnológicas avançadas e força sobre-humana."
+  },
+  {
+    "id": 45,
+    "nome": "Flash Reverso",
+    "forca": 85,
+    "inteligencia": 90,
+    "velocidade": 100,
+    "defesa": 70,
+    "img": "../public/img/flash-reverso.webp",
+    "tags": [
+      "vilão", "vilao", "dc", "velocista", "tempo", "villain", "speedster", "time", "liga da justiça", "homem", "man", "flash", "Flash Reverso", "Reverse Flash"
+    ],
+    "titulo": "O Inimigo do Tempo",
+    "descricao": "Flash Reverso, ou Eobard Thawne, é um velocista maligno e inimigo mortal do Flash, com habilidades de viagem no tempo."
+  },
+  {
+    "id": 46,
+    "nome": "Impulse",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 95,
+    "defesa": 65,
+    "img": "../public/img/impulse.webp",
+    "tags": [
+      "herói", "heroi", "dc", "velocista", "jovem", "hero", "speedster", "young", "titãs", "titas", "homem", "man", "flash", "Impulse", "Impulse"
+    ],
+    "titulo": "O Jovem Velocista",
+    "descricao": "Impulse, ou Bart Allen, é um jovem velocista e membro dos Jovens Titãs, conhecido por sua impulsividade e velocidade extrema."
+  },
+  {
+    "id": 47,
+    "nome": "Hit-Monkey",
+    "forca": 70,
+    "inteligencia": 65,
+    "velocidade": 75,
+    "defesa": 60,
+    "img": "../public/img/hit-monkey.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "assassino", "macaco", "hero", "assassin", "monkey", "homem", "man", "Hit-Monkey", "Hit-Monkey"
+    ],
+    "titulo": "O Assassino Simiesco",
+    "descricao": "Hit-Monkey é um macaco assassino altamente treinado e mortal, combatendo o crime e os criminosos."
+  },
+  {
+    "id": 48,
+    "nome": "Cavaleiro Negro",
+    "forca": 80,
+    "inteligencia": 70,
+    "velocidade": 70,
+    "defesa": 75,
+    "img": "../public/img/black-knight.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "cavaleiro", "espada", "hero", "knight", "sword", "vingadores", "homem", "man", "Cavaleiro Negro", "Black Knight"
+    ],
+    "titulo": "O Guerreiro das Sombras",
+    "descricao": "Cavaleiro Negro, ou Dane Whitman, é um herói medieval com habilidades de combate e uma espada mística."
+  },
+  {
+    "id": 49,
+    "nome": "Pantera Negra",
+    "forca": 85,
+    "inteligencia": 85,
+    "velocidade": 85,
+    "defesa": 85,
+    "img": "../public/img/black-panther.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "rei", "pantera", "hero", "king", "panther", "vingadores", "homem", "man", "Pantera Negra", "Black Panther"
+    ],
+    "titulo": "O Rei de Wakanda",
+    "descricao": "Pantera Negra, ou T'Challa, é o rei de Wakanda e um dos heróis mais importantes da Marvel, com habilidades sobre-humanas e tecnologia avançada."
+  },
+  {
+    "id": 50,
+    "nome": "Viúva Negra",
+    "forca": 75,
+    "inteligencia": 85,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/black-widow.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "espiã", "agente", "hero", "spy", "agent", "vingadores", "mulher", "woman", "Viúva Negra", "Black Widow"
+    ],
+    "titulo": "A Espiã Letal",
+    "descricao": "Viúva Negra, ou Natasha Romanoff, é uma espiã e agente altamente treinada, membro dos Vingadores."
+  },
+  {
+    "id": 51,
+    "nome": "Lady Deadpool",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/lady-deadpool.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "mercenária", "regeneração", "hero", "mercenary", "regeneration", "mulher", "woman", "Lady Deadpool", "Lady Deadpool"
+    ],
+    "titulo": "A Mercenária Alternativa",
+    "descricao": "Lady Deadpool, ou Wanda Wilson, é uma versão feminina de Deadpool de um universo alternativo, com habilidades de regeneração e combate."
+  },
+  {
+    "id": 52,
+    "nome": "Vengeance",
+    "forca": 85,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/vengeance.webp",
+    "tags": [
+      "vilão", "vilao", "marvel", "espírito", "vingança", "villain", "spirit", "vengeance", "homem", "man", "Vengeance", "Vengeance"
+    ],
+    "titulo": "O Espírito da Vingança",
+    "descricao": "Vengeance é um anti-herói ou vilão com habilidades sobrenaturais, frequentemente confrontando o Motoqueiro Fantasma."
+  },
+  {
+    "id": 53,
+    "nome": "Apocalipse",
+    "forca": 100,
+    "inteligencia": 90,
+    "velocidade": 80,
+    "defesa": 100,
+    "img": "../public/img/apocalipse.webp",
+    "tags": [
+      "vilão", "vilao", "marvel", "mutante", "imortal", "villain", "mutant", "immortal", "homem", "man", "Apocalipse", "Apocalypse"
+    ],
+    "titulo": "O Primeiro Mutante",
+    "descricao": "Apocalipse, ou En Sabah Nur, é um dos mutantes mais antigos e poderosos do universo Marvel, com uma vasta gama de habilidades."
+  },
+  {
+    "id": 54,
+    "nome": "Knull",
+    "forca": 100,
+    "inteligencia": 90,
+    "velocidade": 85,
+    "defesa": 95,
+    "img": "../public/img/knull.webp",
+    "tags": [
+      "vilão", "vilao", "marvel", "deus", "simbionte", "villain", "god", "symbiote", "homem", "man", "Knull", "Knull"
+    ],
+    "titulo": "O Deus dos Simbiontes",
+    "descricao": "Knull é o deus dos simbiontes, criador de Venom e Carnificina, com poderes divinos e controle sobre os simbiontes."
+  },
+  {
+    "id": 55,
+    "nome": "Venom",
+    "forca": 90,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/venom.webp",
+    "tags": [
+      "vilão", "vilao", "marvel", "simbionte", "anti-herói", "villain", "symbiote", "anti-hero", "homem", "man", "Venom", "Venom"
+    ],
+    "titulo": "O Simbionte Letal",
+    "descricao": "Venom é um simbionte alienígena que se liga a Eddie Brock, resultando em um anti-herói com habilidades sobre-humanas."
+  },
+  {
+    "id": 56,
+    "nome": "Carnificina",
+    "forca": 90,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/carnage.webp",
+    "tags": [
+      "vilão", "vilao", "marvel", "simbionte", "assassino", "villain", "symbiote", "assassin", "homem", "man", "Carnificina", "Carnage"
+    ],
+    "titulo": "O Simbionte Assassino",
+    "descricao": "Carnificina é um simbionte derivado de Venom, ligado ao psicopata Cletus Kasady, resultando em um dos vilões mais mortais da Marvel."
+  },
+  {
+    "id": 57,
+    "nome": "Druid",
+    "forca": 75,
+    "inteligencia": 85,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/druid.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "místico", "magia", "hero", "mystic", "magic", "vingadores", "homem", "man", "Druid", "Druid"
+    ],
+    "titulo": "O Mestre das Artes Místicas",
+    "descricao": "Druid é um herói e mestre das artes místicas, frequentemente colaborando com os Vingadores em batalhas sobrenaturais."
+  },
+  {
+    "id": 58,
+    "nome": "Doutor Estranho",
+    "forca": 85,
+    "inteligencia": 100,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/doctor-strange.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "mago", "místico", "hero", "wizard", "mystic", "vingadores", "homem", "man", "Doutor Estranho", "Doctor Strange"
+    ],
+    "titulo": "O Mago Supremo",
+    "descricao": "Doutor Estranho, ou Stephen Strange, é o Mago Supremo do universo Marvel, com vastos conhecimentos e habilidades místicas."
+  },
+  {
+    "id": 59,
+    "nome": "Hellcat",
+    "forca": 75,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/hellcat.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "defensores", "gato", "mulher", "female", "woman", "Hellcat", "Hellcat"
+    ],
+    "titulo": "A Gata do Inferno",
+    "descricao": "Hellcat é uma heroína com habilidades acrobáticas e uma conexão com o mundo místico."
+  },
+  {
+    "id": 60,
+    "nome": "Capitã Universo",
+    "forca": 100,
+    "inteligencia": 90,
+    "velocidade": 95,
+    "defesa": 95,
+    "img": "../public/img/captain-universe.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "cosmico", "vingadores", "mulher", "female", "woman", "Capitã Universo", "Captain Universe", "Capita Universo"
+    ],
+    "titulo": "A Defensora do Universo",
+    "descricao": "Capitã Universo é uma entidade cósmica que concede poder a humanos em momentos de crise extrema."
+  },
+  {
+    "id": 61,
+    "nome": "Firestar",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/firestar.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "fogo", "mutante", "mulher", "female", "woman", "Firestar", "estrela de fogo"
+    ],
+    "titulo": "A Estrela de Fogo",
+    "descricao": "Firestar é uma mutante com a habilidade de gerar e controlar micro-ondas, criando fogo e calor intenso."
+  },
+  {
+    "id": 62,
+    "nome": "Motoqueiro Fantasma",
+    "forca": 90,
+    "inteligencia": 70,
+    "velocidade": 75,
+    "defesa": 85,
+    "img": "../public/img/ghost-rider.webp",
+    "tags": [
+      "anti-herói", "anti-heroi", "marvel", "defensores", "motoqueiro", "homem", "male", "man", "Motoqueiro Fantasma", "Ghost Rider"
+    ],
+    "titulo": "O Espírito da Vingança",
+    "descricao": "Motoqueiro Fantasma é um anti-herói com a habilidade de manipular fogo infernal e punir os malfeitores."
+  },
+  {
+    "id": 63,
+    "nome": "Starhawk",
+    "forca": 85,
+    "inteligencia": 85,
+    "velocidade": 85,
+    "defesa": 85,
+    "img": "../public/img/starhawk.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "guardians of the galaxy", "guardião", "cosmico", "homem", "male", "man", "Starhawk"
+    ],
+    "titulo": "O Guardião do Futuro",
+    "descricao": "Starhawk é um herói cósmico e membro dos Guardiões da Galáxia, capaz de manipular a luz e energia."
+  },
+  {
+    "id": 64,
+    "nome": "Homem-Formiga",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/ant-man.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "tamanho", "homem", "male", "man", "Homem-Formiga", "Ant-Man"
+    ],
+    "titulo": "O Vingador Diminuto",
+    "descricao": "Homem-Formiga é um herói que pode alterar seu tamanho, utilizando a tecnologia das partículas Pym."
+  },
+  {
+    "id": 65,
+    "nome": "Beast Prime",
+    "forca": 85,
+    "inteligencia": 90,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/beast-prime.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "x-men", "mutante", "bestial", "homem", "male", "man", "Beast Prime", "Besta Prime"
+    ],
+    "titulo": "A Fera Intelectual",
+    "descricao": "Beast Prime é uma versão mais poderosa de Fera, combinando força bruta com intelecto superior."
+  },
+  {
+    "id": 66,
+    "nome": "Blade",
+    "forca": 85,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/blade.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "caçador de vampiros", "homem", "male", "man", "Blade"
+    ],
+    "titulo": "O Caçador de Vampiros",
+    "descricao": "Blade é um herói metade humano, metade vampiro, dedicado a eliminar criaturas sobrenaturais."
+  },
+  {
+    "id": 67,
+    "nome": "Mayor Luke Cage",
+    "forca": 90,
+    "inteligencia": 70,
+    "velocidade": 70,
+    "defesa": 95,
+    "img": "../public/img/luke-cage.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "defensores", "inquebrável", "homem", "male", "man", 
+      "luke cage", "Mayor Luke Cage"
+    ],
+    "titulo": "O Prefeito Indestrutível",
+    "descricao": "Luke Cage, também conhecido como Power Man, é um herói com pele indestrutível e força sobre-humana."
+  },
+  {
+    "id": 68,
+    "nome": "Anti-Venom",
+    "forca": 90,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 85,
+    "img": "../public/img/anti-venom.webp",
+    "tags": [
+      "anti-herói", "anti-heroi", "marvel", "simbionte", "cura", "homem", "male", "man", 
+      "anti-venom"
+    ],
+    "titulo": "O Simbionte Curativo",
+    "descricao": "Anti-Venom é uma versão heróica do simbionte Venom, com habilidades de cura únicas."
+  },
+  {
+    "id": 69,
+    "nome": "Gavião Arqueiro",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/gaviao-arqueiro.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "arqueiro", "homem", "male", "man", 
+      "hawkeye", "Gavião Arqueiro", "gaviao arqueiro"
+    ],
+    "titulo": "O Arqueiro Vingador",
+    "descricao": "Gavião Arqueiro é um mestre arqueiro e um dos membros fundadores dos Vingadores."
+  },
+  {
+    "id": 70,
+    "nome": "Maria Hill",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/maria-hill.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "shield", "agente", "mulher", "female", "woman", 
+      "maria hill"
+    ],
+    "titulo": "A Agente de Elite",
+    "descricao": "Maria Hill é uma agente de elite da S.H.I.E.L.D., conhecida por sua habilidade tática e liderança."
+  },
+  {
+    "id": 71,
+    "nome": "Mercúrio",
+    "forca": 75,
+    "inteligencia": 70,
+    "velocidade": 100,
+    "defesa": 70,
+    "img": "../public/img/quicksilver.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "mutante", "velocista", "homem", "male", "man", 
+      "quicksilver", "Mercúrio"
+    ],
+    "titulo": "O Mutante Velocista",
+    "descricao": "Mercúrio é um mutante com supervelocidade, conhecido por sua personalidade impetuosa."
+  },
+  {
+    "id": 72,
+    "nome": "Photon",
+    "forca": 85,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 80,
+    "img": "../public/img/photon.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "energia", "cosmico", "mulher", "female", "woman", 
+      "photon"
+    ],
+    "titulo": "A Heroína Energética",
+    "descricao": "Photon é uma heroína capaz de manipular energia, tornando-se um membro valioso dos Vingadores."
+  },
+  {
+    "id": 73,
+    "nome": "Visão",
+    "forca": 90,
+    "inteligencia": 90,
+    "velocidade": 80,
+    "defesa": 85,
+    "img": "../public/img/vision.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadores", "android", "homem", "male", "man", 
+      "vision", "Visão", "visao"
+    ],
+    "titulo": "O Androide Vingador",
+    "descricao": "Visão é um androide com habilidades sobre-humanas e uma inteligência artificial avançada."
+  },
+  {
+    "id": 74,
+    "nome": "Vespa",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 70,
+    "img": "../public/img/wasp.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "vingadora", "tamanho", "mulher", "female", "vingadores", 
+      "wasp", "Vespa", "woman"
+    ],
+    "titulo": "A Vingadora Alada",
+    "descricao": "Vespa é uma heroína capaz de encolher de tamanho e voar, sendo uma das fundadoras dos Vingadores."
+  },
+  {
+    "id": 75,
+    "nome": "Tocha Humana",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/human-torch.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "quarteto fantástico", "fogo", "homem", "male", "quarteto fantástico", 
+      "human torch", "Tocha Humana", "man"
+    ],
+    "titulo": "O Quarteto Flamejante",
+    "descricao": "Tocha Humana é um membro do Quarteto Fantástico, capaz de inflamar seu corpo e voar."
+  },
+  {
+    "id": 76,
+    "nome": "Mulher Invisível",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/invisible-woman.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "quarteto fantástico", "invisibilidade", "mulher", "female", 
+      "quarteto fantástico", "invisible woman", "Mulher Invisível", "woman"
+    ],
+    "titulo": "A Dama Invisível",
+    "descricao": "Mulher Invisível é um membro do Quarteto Fantástico, capaz de se tornar invisível e criar campos de força."
+  },
+  {
+    "id": 77,
+    "nome": "Senhor Fantástico",
+    "forca": 70,
+    "inteligencia": 95,
+    "velocidade": 65,
+    "defesa": 70,
+    "img": "../public/img/mister-fantastic.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "quarteto fantástico", "elástico", "homem", "male", "quarteto fantástico", 
+      "mister fantastic", "Senhor Fantástico", "man"
+    ],
+    "titulo": "O Gênio Elástico",
+    "descricao": "Senhor Fantástico é o líder do Quarteto Fantástico, com a habilidade de esticar seu corpo e um intelecto genial."
+  },
+  {
+    "id": 78,
+    "nome": "Moon Girl",
+    "forca": 70,
+    "inteligencia": 95,
+    "velocidade": 70,
+    "defesa": 70,
+    "img": "../public/img/moon-girl.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "gênio", "mulher", "female", 
+      "moon girl", "woman"
+    ],
+    "titulo": "A Garota Genial",
+    "descricao": "Moon Girl é uma jovem supergênia que luta contra o crime ao lado de seu dinossauro Devil Dinosaur."
+  },
+  {
+    "id": 79,
+    "nome": "Coisa",
+    "forca": 95,
+    "inteligencia": 70,
+    "velocidade": 60,
+    "defesa": 95,
+    "img": "../public/img/the-thing.webp",
+    "tags": [
+      "herói", "heroi", "marvel", "quarteto fantastico", "pedra", "homem", "male", "quarteto fantástico", 
+      "thing", "Coisa", "man"
+    ],
+    "titulo": "A Coisa",
+    "descricao": "Coisa é um membro do Quarteto Fantástico, conhecido por sua força descomunal e pele rochosa."
+  },
+  {
+    "id": 80,
+    "nome": "Booster Gold",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/booster-gold.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "futuro", "future", "tecnologia", "technology", "homem", "male", "man"],
+    "titulo": "O Herói do Futuro",
+    "descricao": "Booster Gold é um herói do futuro que utiliza tecnologia avançada para combater o crime."
+  },
+  {
+    "id": 81,
+    "nome": "Zatanna",
+    "forca": 70,
+    "inteligencia": 85,
+    "velocidade": 70,
+    "defesa": 75,
+    "img": "../public/img/zatanna.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "mágica", "magica", "magic", "feitiço", "feitico", "spell", "mulher", "female", "woman"],
+    "titulo": "A Feiticeira Poderosa",
+    "descricao": "Zatanna é uma poderosa feiticeira e membro da Liga da Justiça."
+  },
+  {
+    "id": 82,
+    "nome": "Huntress",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 75,
+    "img": "../public/img/huntress.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "arqueira", "archer", "vigilante", "mulher", "female", "woman"],
+    "titulo": "A Vigilante Implacável",
+    "descricao": "Huntress é uma vigilante e arqueira experiente, lutando contra o crime de forma implacável."
+  },
+  {
+    "id": 83,
+    "nome": "Vixen",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/vixen.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "animais", "animals", "totem", "mulher", "female", "woman"],
+    "titulo": "A Heroína Animal",
+    "descricao": "Vixen pode canalizar as habilidades de qualquer animal através de seu totem místico."
+  },
+  {
+    "id": 84,
+    "nome": "Firestorm",
+    "forca": 85,
+    "inteligencia": 85,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/firestorm.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "fogo", "fire", "fusão nuclear", "fusao nuclear", "nuclear fusion", "homem", "male", "man"],
+    "titulo": "O Herói Fusão",
+    "descricao": "Firestorm é um herói que pode manipular a matéria e energia nuclear."
+  },
+  {
+    "id": 85,
+    "nome": "Homem de Gelo",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 75,
+    "img": "../public/img/iceman.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "gelo", "ice", "homem", "male", "man"],
+    "titulo": "O Mutante Congelante",
+    "descricao": "Iceman é um membro dos X-Men com a habilidade de manipular gelo e temperaturas frias."
+  },
+  {
+    "id": 86,
+    "nome": "Juggernaut",
+    "forca": 95,
+    "inteligencia": 70,
+    "velocidade": 65,
+    "defesa": 95,
+    "img": "../public/img/juggernaut.webp",
+    "tags": ["vilão", "vilao", "villain", "marvel", "x-men", "força", "forca", "strength", "invulnerabilidade", "invulnerability", "homem", "male", "man"],
+    "titulo": "O Invulnerável Imparável",
+    "descricao": "Juggernaut é meio-irmão de Charles Xavier e possui força descomunal e invulnerabilidade."
+  },
+  {
+    "id": 87,
+    "nome": "Sauron",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 75,
+    "img": "../public/img/sauron.webp",
+    "tags": ["vilão", "vilao", "villain", "marvel", "x-men", "pterodáctilo", "pterodactilo", "pterodactyl", "hipnose", "hipnose", "hypnosis", "homem", "male", "man"],
+    "titulo": "O Pterodáctilo Hipnótico",
+    "descricao": "Sauron é um mutante que se transforma em um pterodáctilo humanoide com habilidades hipnóticas."
+  },
+  {
+    "id": 88,
+    "nome": "Lady Deathstrike",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/lady-deathstrike.webp",
+    "tags": ["vilão", "vilao", "villain", "marvel", "x-men", "adamantium", "assassina", "assassin", "mulher", "female", "woman"],
+    "titulo": "A Assassina de Adamantium",
+    "descricao": "Lady Deathstrike é uma assassina com garras de adamantium e implantes cibernéticos."
+  },
+  {
+    "id": 89,
+    "nome": "Bastion",
+    "forca": 85,
+    "inteligencia": 85,
+    "velocidade": 80,
+    "defesa": 85,
+    "img": "../public/img/bastion.webp",
+    "tags": ["vilão", "vilao", "villain", "marvel", "x-men", "sentinela", "sentinel", "cibernético", "cibernetico", "cybernetic", "homem", "male", "man"],
+    "titulo": "A Entidade Cibernética",
+    "descricao": "Bastion é uma entidade cibernética combinada de Nimrod e o Molde-Mestre."
+  },
+  {
+    "id": 90,
+    "nome": "Psylocke",
+    "forca": 75,
+    "inteligencia": 85,
+    "velocidade": 80,
+    "defesa": 80,
+    "img": "../public/img/psylocke.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "telepatia", "telepathy", "telecinese", "telecinese", "telekinesis", "mulher", "female", "woman"],
+    "titulo": "A Telepata Guerreiro",
+    "descricao": "Psylocke é uma mutante com habilidades de telepatia e telecinese, e é uma habilidosa guerreira."
+  },
+  {
+    "id": 91,
+    "nome": "noturno",
+    "forca": 70,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 75,
+    "img": "../public/img/noturno.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "teletransporte", "teleportation", "acrobata", "acrobata", "acrobat", "homem", "male", "man"],
+    "titulo": "O Teletransportador Ágil",
+    "descricao": "Nightcrawler é um mutante capaz de se teletransportar e é um acrobata habilidoso."
+  },
+  {
+    "id": 92,
+    "nome": "Colossus",
+    "forca": 90,
+    "inteligencia": 75,
+    "velocidade": 70,
+    "defesa": 90,
+    "img": "../public/img/colossus.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "metal", "força", "forca", "strength", "homem", "male", "man"],
+    "titulo": "O Gigante Metálico",
+    "descricao": "Colossus é um mutante que pode transformar seu corpo em metal orgânico, dando-lhe força e resistência incríveis."
+  },
+  {
+    "id": 93,
+    "nome": "Professor X",
+    "forca": 65,
+    "inteligencia": 95,
+    "velocidade": 65,
+    "defesa": 75,
+    "img": "../public/img/professor-x.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "telepatia", "telepathy", "mutantes", "mutantes", "mutants", "homem", "male", "man"],
+    "titulo": "O Líder Telepático",
+    "descricao": "Professor X é o líder dos X-Men, um poderoso telepata e defensor da convivência pacífica entre humanos e mutantes."
+  },
+  {
+    "id": 94,
+    "nome": "Tempestade",
+    "forca": 80,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 75,
+    "img": "../public/img/tempestade.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "clima", "clima", "weather", "elementos", "elements", "mulher", "female", "woman"],
+    "titulo": "A Deusa do Clima",
+    "descricao": "Tempestade é uma mutante que pode controlar o clima e os elementos da natureza."
+  },
+  {
+    "id": 95,
+    "nome": "Bloodstone",
+    "forca": 80,
+    "inteligencia": 75,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/elsa-bloodstone.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "caçador", "cacador", "hunter", "imortalidade", "immortality", "homem", "male", "man"],
+    "titulo": "O Caçador Imortal",
+    "descricao": "Bloodstone é um caçador de monstros imortal, dotado de força sobre-humana e resistência."
+  },
+  {
+    "id": 96,
+    "nome": "Blue Marvel",
+    "forca": 90,
+    "inteligencia": 90,
+    "velocidade": 85,
+    "defesa": 90,
+    "img": "../public/img/blue-marvel.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "força", "forca", "strength", "energia", "energy", "homem", "male", "man"],
+    "titulo": "O Herói da Energia Antimatéria",
+    "descricao": "Blue Marvel é um super-herói com força sobre-humana e a capacidade de manipular energia antimatéria."
+  },
+  {
+    "id": 97,
+    "nome": "Dazzler",
+    "forca": 70,
+    "inteligencia": 75,
+    "velocidade": 75,
+    "defesa": 75,
+    "img": "../public/img/dazzler.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "luz", "luz", "light", "som", "sound", "mulher", "female", "woman"],
+    "titulo": "A Heroína da Luz e Som",
+    "descricao": "Dazzler é uma mutante que pode converter som em luz de várias formas."
+  },
+  {
+    "id": 98,
+    "nome": "Moon Knight",
+    "forca": 80,
+    "inteligencia": 80,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/moon-knight.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "vigilante", "vigilante", "vigilante", "lua", "moon", "homem", "male", "man"],
+    "titulo": "O Cavaleiro da Lua",
+    "descricao": "Moon Knight é um vigilante com múltiplas personalidades e habilidades de combate excepcionais."
+  },
+  {
+    "id": 99,
+    "nome": "Ghost-Spider",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 75,
+    "img": "../public/img/gwen-the-ghost-spider.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "aranha", "aranha", "spider", "gwen stacy", "mulher", "female", "woman"],
+    "titulo": "A Aranha Fantasma",
+    "descricao": "Ghost-Spider é a Gwen Stacy de outra realidade que possui habilidades semelhantes ao Homem-Aranha."
+  },
+  {
+    "id": 100,
+    "nome": "Miles Morales",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 85,
+    "defesa": 75,
+    "img": "../public/img/miles-morales.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "aranha", "aranha", "spider", "veneno", "venom", "homem", "male", "man"],
+    "titulo": "O Aranha Venenoso",
+    "descricao": "Miles Morales é um jovem Homem-Aranha com habilidades únicas, incluindo invisibilidade, veneno de aranha e eletricidade."
+  },
+  {
+    "id": 101,
+    "nome": "Gambit",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/gambit.webp",
+    "tags": ["herói", "heroi", "hero", "marvel", "x-men", "energia", "energia", "energy", "cartas", "cartas", "cards", "homem", "male", "man"],
+    "titulo": "O Ladrão de Energia",
+    "descricao": "Gambit é um mutante que pode carregar objetos com energia cinética, geralmente usando cartas de baralho como arma."
+  },
+  {
+    "id": 102,
+    "nome": "Sabretooth",
+    "forca": 85,
+    "inteligencia": 75,
+    "velocidade": 75,
+    "defesa": 80,
+    "img": "../public/img/sabretooth.webp",
+    "tags": ["vilão", "vilao", "villain", "marvel", "x-men", "fator de cura", "fator de cura", "healing factor", "garras", "garras", "claws", "homem", "male", "man"],
+    "titulo": "O Predador Selvagem",
+    "descricao": "Sabretooth é um mutante com habilidades semelhantes a Wolverine, incluindo fator de cura e garras afiadas."
+  },
+  {
+    "id": 103,
+    "nome": "Talon",
+    "forca": 75,
+    "inteligencia": 80,
+    "velocidade": 80,
+    "defesa": 75,
+    "img": "../public/img/talon.webp",
+    "tags": ["herói", "heroi", "hero", "dc", "garras", "garras", "claws", "acrobata", "acrobata", "acrobat", "mulher", "female", "woman"],
+    "titulo": "O Guerreiro Acrobata",
+    "descricao": "Talon é um combatente acrobata com habilidades excepcionais de luta e garras afiadas."
+  }
+]
   
