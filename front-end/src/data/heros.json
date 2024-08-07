@@ -26,7 +26,7 @@
     "tags": [
       "herói", "heroi", "tecnologia", "dc", "detetive", "humano", "batman", "morcego",
       "liga da justiça",
-      "hero", "technology", "detective", "human", "bat", "man"
+      "hero", "technology", "detective", "human", "bat", "man", "homem"
     ],
     "titulo": "O Cavaleiro das Trevas",
     "descricao": "Batman, ou Bruce Wayne, é um vigilante de Gotham City, conhecido por sua inteligencia, habilidades de combate e uso de tecnologia avançada."
@@ -42,7 +42,7 @@
     "tags": [
       "herói", "heroi", "mitologia", "marvel", "deus", "relâmpago",
       "thor", "trovão", "hero", "mythology", "marvel", "god",
-      "lightning", "thunder"
+      "lightning", "thunder", "homem"
     ],
     "titulo": "O Deus do Trovão",
     "descricao": "Thor, o Deus do Trovão, é um dos mais poderosos Vingadores, empunhando o martelo Mjolnir e controlando raios."
@@ -57,7 +57,7 @@
     "img": "../public/img/wolverine.webp",
     "tags": [
       "herói", "heroi", "marvel", "mutante", "fatorcura", "garras",
-      "lobisomem", "hero", "mutant", "healing factor", "claws", "wolverine", "werewolf", "x-men"
+      "lobisomem", "hero", "mutant", "healing factor", "claws", "wolverine", "werewolf", "x-men", "homem"
     ],
     "titulo": "O Mutante Selvagem",
     "descricao": "Wolverine, ou Logan, é um mutante com habilidades regenerativas e garras de adamantium, conhecido por sua personalidade feroz."
@@ -119,7 +119,7 @@
     "img": "../public/img/robin.webp",
     "tags": [
       "herói", "heroi", "dc", "sidekick", "detetive", "juventude", "jovens titãs", "robin",
-      "hero", "sidekick", "detective", "youth"
+      "hero", "sidekick", "detective", "youth", "homem"
     ],
     "titulo": "O Menino Prodígio",
     "descricao": "Robin é o parceiro de Batman, conhecido por suas habilidades de acrobacia, combate e investigação."
@@ -164,7 +164,7 @@
     "img": "../public/img/pacificador.webp",
     "tags": [
       "herói", "heroi", "dc", "antihéroi", "militar", "pacificador",
-      "peacekeeper", "hero", "military", "antihero", "peacemaker"
+      "peacekeeper", "hero", "military", "antihero", "peacemaker", "homem"
     ],
     "titulo": "O Justiçeiro Pacífico",
     "descricao": "Pacificador é um vigilante com uma abordagem brutal contra o crime, focado em trazer paz, não importa o custo."
@@ -179,7 +179,7 @@
     "img": "../public/img/magneto.webp",
     "tags": [
       "herói", "heroi", "marvel", "mutante", "poderes magnéticos", "vilão",
-      "magneto", "hero", "mutant", "magnetic powers", "villain"
+      "magneto", "hero", "mutant", "magnetic powers", "villain", "homem"
     ],
     "titulo": "O Mestre dos Metais",
     "descricao": "Magneto é um mutante com o poder de controlar campos magnéticos e metais, e frequentemente atua como antagonista dos X-Men."
@@ -194,7 +194,7 @@
     "img": "../public/img/lex-luthor.webp",
     "tags": [
       "vilão", "dc", "supervilão", "inteligencia", "lex luthor",
-      "villain", "dc", "supervillain", "intelligence"
+      "villain", "dc", "supervillain", "intelligence", "homem"
     ],
     "titulo": "O Gênio do Crime",
     "descricao": "Lex Luthor é um dos maiores inimigos do Superman, um gênio do crime e bilionário com uma grande capacidade intelectual e recursos tecnológicos."
@@ -209,7 +209,7 @@
     "img": "../public/img/joker.webp",
     "tags": [
       "vilão", "dc", "supervilão", "coringa", "loucura", "joker",
-      "villain", "dc", "supervillain", "madness"
+      "villain", "dc", "supervillain", "madness", "homem"
     ],
     "titulo": "O Palhaço do Crime",
     "descricao": "Coringa é um dos mais icônicos vilões de Gotham City, conhecido por sua personalidade caótica e tendências psicopáticas."
@@ -239,7 +239,7 @@
     "img": "../public/img/hulk.webp",
     "tags": [
       "herói", "heroi", "marvel", "forca", "gigante", "hulk",
-      "hero", "marvel", "strength", "giant"
+      "hero", "marvel", "strength", "giant", "homem"
     ],
     "titulo": "O Golias Esmeralda",
     "descricao": "Hulk, ou Bruce Banner, é um cientista que se transforma em um gigante verde com forca colossal quando fica enfurecido."
@@ -254,7 +254,7 @@
     "img": "../public/img/flash.webp",
     "tags": [
       "herói", "heroi", "dc", "velocidade", "superpoderes", "flash",
-      "hero", "dc", "speed", "superpowers"
+      "hero", "dc", "speed", "superpowers", "homem"
     ],
     "titulo": "O Homem Mais Rápido do Mundo",
     "descricao": "Flash, ou Barry Allen, possui a capacidade de correr a velocidades superlativas, viajando no tempo e atravessando dimensões."
@@ -269,7 +269,7 @@
     "img": "../public/img/doctor-doom.webp",
     "tags": [
       "vilão", "marvel", "supervilão", "magia", "inteligencia", "doutor destino",
-      "villain", "marvel", "supervillain", "magic", "intelligence", "doctor doom"
+      "villain", "marvel", "supervillain", "magic", "intelligence", "doctor doom", "homem"
     ],
     "titulo": "O Senhor do Latveria",
     "descricao": "Doutor Destino, ou Victor Von Doom, é um dos vilões mais inteligentes e poderosos do universo Marvel, com habilidades em magia e tecnologia."
@@ -284,7 +284,7 @@
     "img": "../public/img/deadpool.webp",
     "tags": [
       "herói", "heroi", "marvel", "anti-herói", "humor", "deadpool",
-      "hero", "marvel", "antihero", "humor"
+      "hero", "marvel", "antihero", "humor", "homem"
     ],
     "titulo": "O Mercenário Tagarela",
     "descricao": "Deadpool, ou Wade Wilson, é um mercenário com habilidades regenerativas e um senso de humor irreverente, conhecido por quebrar a quarta parede."
@@ -299,7 +299,7 @@
     "img": "../public/img/cyclops.webp",
     "tags": [
       "herói", "heroi", "marvel", "mutante", "poderes ópticos", "ciclope",
-      "hero", "marvel", "mutant", "optic powers", "cyclop", "x-men"
+      "hero", "marvel", "mutant", "optic powers", "cyclop", "x-men", "homem"
     ],
     "titulo": "O Líder dos X-Men",
     "descricao": "Ciclope, ou Scott Summers, é um mutante com a capacidade de disparar feixes de energia ótica de seus olhos, e atua como líder dos X-Men."
@@ -1288,7 +1288,7 @@
   },
   {
     "id": 91,
-    "nome": "noturno",
+    "nome": "Noturno",
     "forca": 70,
     "inteligencia": 80,
     "velocidade": 85,
@@ -1342,7 +1342,7 @@
     "velocidade": 75,
     "defesa": 80,
     "img": "../public/img/elsa-bloodstone.webp",
-    "tags": ["herói", "heroi", "hero", "marvel", "caçador", "cacador", "hunter", "imortalidade", "immortality", "homem", "male", "man"],
+    "tags": ["herói", "heroi", "hero", "marvel", "caçador", "cacador", "hunter", "imortalidade", "immortality", "mulher", "female", "woman"],
     "titulo": "O Caçador Imortal",
     "descricao": "Bloodstone é um caçador de monstros imortal, dotado de força sobre-humana e resistência."
   },

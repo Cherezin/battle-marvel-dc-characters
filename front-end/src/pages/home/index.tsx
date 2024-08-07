@@ -5,6 +5,7 @@ import { BattleModal } from "./battle-modal";
 import { ListHero } from "./list-heros";
 import { InfoCaracterModal } from "./info-modal";
 import { DontCaracterModal } from "./dont-caracter-modal";
+import { Header } from "./header";
 
 interface Hero {
   id: number;
@@ -96,6 +97,65 @@ export function CreateBattleHeros() {
     setIsInfoModal(false)
   }
 
+  function filterAll(){
+    setIsFilteredHeros(heros)
+    setIsSearch('')
+  }
+
+  function filterMarvel(){
+    const marvel = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('marvel'))
+    })
+
+    setIsFilteredHeros(marvel)
+    setIsSearch('')
+  }
+
+  function filterDC(){
+    const dc = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('dc'))
+    })
+
+    setIsFilteredHeros(dc)
+    setIsSearch('')
+  }
+
+  function filterMan(){
+    const man = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('homem'))
+    })
+    
+    setIsFilteredHeros(man)
+    setIsSearch('')
+  }
+
+  function filterWoman(){
+    const woman = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('woman'))
+    })
+    
+    setIsFilteredHeros(woman)
+    setIsSearch('')
+  }
+
+  function filterHero(){
+    const heroi = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('herói'))
+    })
+    
+    setIsFilteredHeros(heroi)
+    setIsSearch('')
+  }
+
+  function filterVillain(){
+    const vilao = heros.filter(hero => {
+      return hero.tags.some(tag => tag.includes('vilão'))
+    })
+    
+    setIsFilteredHeros(vilao)
+    setIsSearch('')
+  }
+
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
@@ -119,24 +179,20 @@ export function CreateBattleHeros() {
   return (
 
     <div>
-      <div className="fixed top-0 left-0 w-full bg-amber-950 py-7 flex items-center justify-center gap-3 z-50">
-        <div className="bg-zinc-100 rounded-md px-2 w-1/6 py-2">
-          <input 
-          className="bg-transparent w-full outline-none"
-          placeholder="Pesquise o nome do personagem"
-          value={isSearch}
-          onChange={(e) => handleSearchCharacter(e.target.value)}
-          type="text" 
-          />
-        </div>
-        <div className="flex items-center justify-center">
-            <button 
-            className="bg-emerald-200 px-5 py-2 rounded-lg text-zinc-950 hover:bg-emerald-300" 
-            onClick={battleHeros}>
-              Iniciar Luta
-            </button>
-        </div>
-      </div>
+      
+        <Header
+          isSearch={isSearch}
+          handleSearchCharacter={handleSearchCharacter}
+          filterAll={filterAll}
+          filterMarvel={filterMarvel}
+          filterDC={filterDC}
+          filterMan={filterMan}
+          filterWoman={filterWoman}
+          filterHero={filterHero}
+          filterVillain={filterVillain}
+          battleHeros={battleHeros}
+         />
+      
 
         <div className="py-6 px-5">
             
