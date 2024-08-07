@@ -6,13 +6,17 @@ const buttonVariants = tv({
 
     variants:{
         variant: {
-            primary:'bg-amber-200 text-zinc-950 hover:bg-amber-300',
-            secundary: 'bg-emerald-200 text-zinc-950 hover:bg-emerald-300'
+            primary:'bg-zinc-50 text-zinc-950 hover:bg-zinc-300',
+            secundary: 'bg-orange-400 text-zinc-950 hover:bg-orange-500',
+            marvel: 'bg-red-600'
         },
 
         size: {
                 default: 'py-2',
-                full: 'w-full h-11'
+                full: 'w-full h-11',
+                marvel: 'p-0 w-20',
+                dc: 'py-0.5 w-20',
+                caracter: 'p-1 w-20'
         }
     },
 

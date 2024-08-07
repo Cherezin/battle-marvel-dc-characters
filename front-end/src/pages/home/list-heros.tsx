@@ -39,7 +39,7 @@ export function ListHero({
                                 </div>
                                 <div>
                                     <button onClick={() => openInfoModal(hero.id)}>
-                                        <Info className="size-5 text-yellow-950 hover:text-yellow-500" />
+                                        <Info className="size-5 text-orange-950 hover:text-orange-500" />
                                     </button>
                                 </div>
                             </div>
